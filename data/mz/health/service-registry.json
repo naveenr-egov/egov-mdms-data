@@ -626,6 +626,16 @@
           "path": "/health-project/user-location/v1/_search"
         }
       ]
+    },
+    {
+      "service": "UNIQUE-ID-POOL",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "uniqueId",
+          "path": "/health-idgen/id/id_pool/dispatch"
+        }
+      ]
     }
   ]
 }
